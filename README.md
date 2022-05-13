@@ -1,2 +1,2 @@
-# check-go
-Test
+<!-- # check-go
+Test -->
