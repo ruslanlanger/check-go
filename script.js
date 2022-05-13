@@ -56,7 +56,7 @@ function horse() {
       .querySelector(`.chess-block[data-x="${+x - 2}"][data-y="${+y + 1}"]`)
       .classList.add('active');
   }
-  if (+x - 2 < 8 && +y - 1 >= 0) {
+  if (+x - 2 >= 0 && +y - 1 >= 0) {
     document
       .querySelector(`.chess-block[data-x="${+x - 2}"][data-y="${+y - 1}"]`)
       .classList.add('active');
